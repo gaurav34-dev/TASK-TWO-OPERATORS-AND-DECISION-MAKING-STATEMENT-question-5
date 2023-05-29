@@ -1,21 +1,16 @@
 import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
-    while(true)
-      {
-        Scanner s=new Scanner(System.in);
-        System.out.println("enter a number");
-        int a=s.nextInt();
-        if(a<0)
-        {
-          System.out.println("It's Over");
-          break;
-        }
-        else{
-          System.out.println("Good Going");
-          continue;
-        }
-      }
+   for(int i=0;i<7;i++)
+     {
+       if(i==3||i==6)
+       {
+        continue;
+       }
+       else{
+         System.out.println(i);
+       }
+     }
   }
 }
 
